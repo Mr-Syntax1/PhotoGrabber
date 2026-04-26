@@ -54,6 +54,7 @@ Find this line:
 ```python
 source_dir = os.path.join(user_profile, "Pictures")
 ```
+
 Change it to any path you want. Examples:
 
 ```python
@@ -66,6 +67,8 @@ source_dir = r"D:\MyImages"
 # Grab from Downloads folder
 source_dir = os.path.join(user_profile, "Downloads")
 ```
+
+---
 
 ##🖼️ Change File Formats (which extensions to grab)
 Find these lines:
