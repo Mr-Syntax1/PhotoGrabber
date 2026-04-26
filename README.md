@@ -45,10 +45,10 @@ The name "secretly" refers to the **non-intrusive background operation**, not ma
 
 ---
 
-##🔧 Customization Guide
+## 🔧 Customization Guide
 You can easily change source, destination, and file formats by editing a few lines in the script.
 
-##📂 Change Source Folder (where to grab from)
+## 📂 Change Source Folder (where to grab from)
 Find this line:
 
 ```python
@@ -70,7 +70,7 @@ source_dir = os.path.join(user_profile, "Downloads")
 
 ---
 
-##🖼️ Change File Formats (which extensions to grab)
+## 🖼️ Change File Formats (which extensions to grab)
 Find these lines:
 
 ```python
@@ -78,7 +78,7 @@ picture_files = glob.glob(os.path.join(source_dir, "**", "*.png"), recursive=Tru
 picture_files.extend(glob.glob(os.path.join(source_dir, "**", "*.jpg"), recursive=True))
 ```
 
-##Add or remove extensions as you like. Examples:
+## Add or remove extensions as you like. Examples:
 
 ```python
 # Grab only .png files
